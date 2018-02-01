@@ -1,0 +1,19 @@
+body,ul,li{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style-type:none;
+}
+.rating{
+	width:75px;
+	height:70px;
+	margin:100px auto;
+}
+.rating-item{
+	float:left;
+	width:15px;
+	height:14px;
+	background:url(F:/项目/五星好评/js.project/方案一/images/wuxing.jpg) no-repeat;
+	cursor:pointer;
+}
