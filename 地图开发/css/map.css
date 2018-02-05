@@ -1,0 +1,28 @@
+body,html,#map{
+	width:100%;
+	height:100%;
+}
+
+body{
+margin:0;
+}
+
+#zoomin,#zoomout{
+	position:absolute;
+	left:10px;
+	width:60px;
+	height:40px;
+	z-index:160;
+	background-color:green;
+	color:#FFF;
+	border-radius:5px;
+	line-height:40px;
+	text-align:center;
+	cursor:pointer;
+}
+#zoomin{
+	bottom:100px;
+}
+#zoomout{
+	bottom:50px;
+}
