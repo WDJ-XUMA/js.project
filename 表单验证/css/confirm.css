@@ -35,11 +35,13 @@ form{
 form div{
 	overflow:hidden;
 	clear:both;
+	margin:5px 0;
 }
 form div label{
 	float:left;
 	clear:both;
 }
+
 form div label .text{
 	width:152px;
 	height:26px;
@@ -80,6 +82,7 @@ div span{
 	width:135px;
 	height:33px;
 	background:red;
+	margin-left:80px;
 }
 .changeImg{
 	width:22px;
@@ -89,7 +92,7 @@ div span{
 	background: green;
 }
 .msg{
-	line-height: 12px;
+	line-height: 26px;
 	color:#999;
 	float:left;
 	margin-left:5px;
@@ -100,5 +103,6 @@ div span{
 	width:25px;
 	height:20px;
 	background:blue;
+	margin-right:5px;
 }
 
