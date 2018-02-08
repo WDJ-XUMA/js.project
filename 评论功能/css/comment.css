@@ -9,11 +9,6 @@ body{
 li{
 	list-style:none;
 }
-input,select,textarea{
-	outline:none;
-	border:none;
-	background:none;
-}
 textarea{
 	resize:none;
 }
@@ -172,10 +167,12 @@ a:hover{
 }
 .text-box .comment{
 	display:block;
+	height:15px;
 	border:1px solid #EEE;
 	width:440px;
 	padding:5px;
 	color:#CCC;
+	resize:none;
 }
 .text-box .btn{
 	display:none;
@@ -187,6 +184,11 @@ a:hover{
 	color:#FFF;
 	background:#4679AC;
 	border:1px solid #0C528D;
+}
+.text-box .btn-off {
+	border: 1px solid #ccc; 
+	color: #ccc; 
+	background: #F7F7F7;
 }
 .text-box .word{
 	display:none;
